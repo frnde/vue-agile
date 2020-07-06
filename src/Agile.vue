@@ -190,7 +190,7 @@
 			},
 
 			widthSlide: function () {
-				return (!this.settings.unagile) ? this.widthContainer / this.settings.slidesToShow : 'auto'
+				return (!this.settings.unagile) ? (this.widthContainer / this.settings.slidesToShow) - 30 : 'auto'
 			}
 		},
 
